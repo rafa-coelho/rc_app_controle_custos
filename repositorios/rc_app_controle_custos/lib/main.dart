@@ -31,14 +31,14 @@ class _MyAppState extends State<MyApp> {
         backgroundColor: AppColors.bottomMenu,
         body: SafeArea(
           child: Container(
-            padding: const EdgeInsets.all(16.0),
-            width: double.infinity,
-            height: double.infinity,
-            color: AppColors.backgroundApp,
-            child: Root(
-              openMenu: _currentIndex,
-            ),
-          ),
+              width: double.infinity,
+              height: double.infinity,
+              color: AppColors.backgroundApp,
+              child: SingleChildScrollView(
+                child: Root(
+                  openMenu: _currentIndex,
+                ),
+              )),
         ),
         bottomNavigationBar: SizedBox(
           height: 80,

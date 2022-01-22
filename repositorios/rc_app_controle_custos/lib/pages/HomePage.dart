@@ -43,6 +43,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Container(
+      padding: EdgeInsets.all(8),
       color: AppColors.backgroundApp,
       child: Padding(
         padding: EdgeInsets.all(10),
