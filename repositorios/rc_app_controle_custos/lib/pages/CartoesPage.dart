@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class CartoesPage extends StatefulWidget {
-  const CartoesPage({Key key}) : super(key: key);
+  const CartoesPage({Key? key}) : super(key: key);
 
   @override
   _CartoesPageState createState() => _CartoesPageState();

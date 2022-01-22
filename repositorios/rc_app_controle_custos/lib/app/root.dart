@@ -5,9 +5,9 @@ import 'package:rc_app_controle_custos/pages/HomePage.dart';
 import 'package:rc_app_controle_custos/pages/RelatoriosPage.dart';
 
 class Root extends StatefulWidget {
-  const Root({Key key, this.openMenu}) : super(key: key);
+  const Root({Key? key, this.openMenu}) : super(key: key);
 
-  final int openMenu;
+  final int? openMenu;
 
   @override
   _RootState createState() => _RootState();
@@ -25,6 +25,8 @@ class _RootState extends State<Root> {
         return CustosPage();
       case 3:
         return RelatoriosPage();
+      default:
+        return Container();
     }
   }
 }

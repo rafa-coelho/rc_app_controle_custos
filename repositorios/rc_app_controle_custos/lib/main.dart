@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:rc_app_controle_custos/core/app_colors.dart';
+import 'package:rc_app_controle_custos/app/core/app_colors.dart';
 import 'package:salomon_bottom_bar/salomon_bottom_bar.dart';
 
 import 'app/root.dart';
@@ -31,6 +31,9 @@ class _MyAppState extends State<MyApp> {
         backgroundColor: AppColors.bottomMenu,
         body: SafeArea(
           child: Container(
+            padding: const EdgeInsets.all(16.0),
+            width: double.infinity,
+            height: double.infinity,
             color: AppColors.backgroundApp,
             child: Root(
               openMenu: _currentIndex,

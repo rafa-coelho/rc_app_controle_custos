@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class RelatoriosPage extends StatefulWidget {
-  const RelatoriosPage({Key key}) : super(key: key);
+  const RelatoriosPage({Key? key}) : super(key: key);
 
   @override
   _RelatoriosPageState createState() => _RelatoriosPageState();

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class CustosPage extends StatefulWidget {
-  const CustosPage({Key key}) : super(key: key);
+  const CustosPage({Key? key}) : super(key: key);
 
   @override
   _CustosPageState createState() => _CustosPageState();
