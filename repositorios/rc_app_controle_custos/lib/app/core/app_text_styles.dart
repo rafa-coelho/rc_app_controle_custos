@@ -20,4 +20,9 @@ class AppTextStyles {
       color: AppColors.darkBlue, fontSize: 16, fontWeight: FontWeight.bold);
 
   static final TextStyle cardCustoMesValue = GoogleFonts.roboto(fontSize: 18);
+
+  static final TextStyle cardCartaoValue = GoogleFonts.roboto(fontSize: 14);
+
+  static final TextStyle cardCartaoDescription = GoogleFonts.roboto(
+      color: AppColors.textLight, fontSize: 14, fontWeight: FontWeight.w100);
 }
