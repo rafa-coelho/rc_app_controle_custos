@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:rc_app_controle_custos/app/core/app_text_styles.dart';
-import 'package:rc_app_controle_custos/app/data_model/custos_model.dart';
+import 'package:rc_app_controle_custos/app/data_model/custo_model.dart';
 import 'package:rc_app_controle_custos/app/enum/TipoCustoEnum.dart';
 
 class CardCustoMesComponent extends StatefulWidget {

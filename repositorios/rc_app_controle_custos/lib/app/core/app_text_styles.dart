@@ -13,6 +13,9 @@ class AppTextStyles {
   static final TextStyle cardMoney = GoogleFonts.roboto(
       color: AppColors.darkBlue, fontSize: 25, fontWeight: FontWeight.bold);
 
+  static final TextStyle cardMoneySymbol = GoogleFonts.roboto(
+      color: AppColors.darkBlue, fontSize: 16, fontWeight: FontWeight.w500);
+
   static final TextStyle cardDescription = GoogleFonts.roboto(
       color: AppColors.textLight, fontSize: 16, fontWeight: FontWeight.w100);
 
